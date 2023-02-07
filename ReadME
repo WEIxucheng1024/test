@@ -19,3 +19,9 @@ git diff                                                                比较�
 git reset                                                               回退版本
 git rm                                                                  将文件从暂存区和工作区中删除。
 git mv                                                                  移动或重命名工作区文件。
+
+go mod:
+go mod init XXX                             初始化项目(XXX为模块名称)
+go get github.com/XXX/XXX                   获取某个包
+go env -w GO111MODULES=ON                   开启go mod模块
+go mod edit -replace=旧的模块信息=新的模块信息  更换依赖包的版本
