@@ -1,0 +1,9 @@
+git：
+git init                    创建仓库
+git add *                   上传所有修改记录到本地
+git commit -m ''            提交本地修改到远程仓库
+git push                    将本地的分支版本上传到远程并合并
+git diff                    比较文件的不同，即暂存区和工作区的差异
+git reset                   回退版本
+git rm                      将文件从暂存区和工作区中删除。
+git mv                      移动或重命名工作区文件。
