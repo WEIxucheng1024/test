@@ -1,9 +1,19 @@
 git：
-git init                    创建仓库
-git add *                   上传所有修改记录到本地
-git commit -m ''            提交本地修改到远程仓库
-git push                    将本地的分支版本上传到远程并合并
-git diff                    比较文件的不同，即暂存区和工作区的差异
-git reset                   回退版本
-git rm                      将文件从暂存区和工作区中删除。
-git mv                      移动或重命名工作区文件。
+
+仓库相关：
+git remote add git@github.com:WEIxucheng1024/test.git                   将远程仓库添加到本地
+git remote -v                                                           显示所有绑定的远程仓库
+git remote rm origin                                                    删除别名为origin的远程仓库链接
+git init                                                                创建仓库
+
+分支代码相关
+git branch                                                              展示所有分支
+git branch name                                                         创建某个分支
+git checkout name                                                       跳转到该分支
+git add *                                                               上传所有修改记录到本地
+git commit -m ''                                                        提交本地修改到远程仓库
+git push origin master                                                  将本地的分支版本上传到远程并合并
+git diff                                                                比较文件的不同，即暂存区和工作区的差异
+git reset                                                               回退版本
+git rm                                                                  将文件从暂存区和工作区中删除。
+git mv                                                                  移动或重命名工作区文件。
