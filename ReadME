@@ -25,3 +25,4 @@ go mod init XXX                             初始化项目(XXX为模块名称)
 go get github.com/XXX/XXX                   获取某个包
 go env -w GO111MODULES=ON                   开启go mod模块
 go mod edit -replace=旧的模块信息=新的模块信息  更换依赖包的版本
+
