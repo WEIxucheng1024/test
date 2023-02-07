@@ -19,3 +19,5 @@ git diff                                                                比较�
 git reset                                                               回退版本
 git rm                                                                  将文件从暂存区和工作区中删除。
 git mv                                                                  移动或重命名工作区文件。
+
+测试一下
